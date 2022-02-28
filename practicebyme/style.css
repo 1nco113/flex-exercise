@@ -1,0 +1,95 @@
+
+
+.container {
+    border: 5px solid green;
+    background-color: lightgreen;
+    padding: 10px;
+
+}
+
+.flex-container {
+    border: 5px solid blue;
+    background-color: lightblue;
+    display: flex;
+    padding: 10px;
+    
+}
+
+.flex-items {
+    border: 5px solid salmon;
+    background-color: orange;
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.unique {
+    display: flex;
+}
+
+.insideflex {
+    flex: 1;
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.browncontainer {
+    display: flex;
+    
+}
+
+
+.bigbrown {
+    border: 5px solid brown;
+    background-color: burlywood;
+    padding: 20px;
+    margin: 10px auto;
+    margin-right: 5px;
+    flex: 1;
+
+}
+
+.doublebrown {
+    margin: 10px auto;
+    margin-left: 5px;
+    flex: 1;
+}
+
+.doublebrownflex {
+    border: 5px solid brown;
+    background-color: burlywood;
+    padding: 20px;
+
+}
+
+.first {
+    margin-bottom: 5px;
+}
+
+
+.second {
+    border: 5px solid darkblue;
+    background-color: cyan;
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+}
+
+.double {
+    display: flex;
+    border: 0;
+    background-color: lightblue;
+    padding: 0;
+}
+
+.orangebox {
+    border: 5px solid orange;
+    padding: 20px;
+    flex: 1;
+
+}
+
+.orangebox:first-child {
+    margin-right: 10px;
+}
